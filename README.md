@@ -28,8 +28,8 @@ It was designed to handle a SOC workflow where daily reports are sent *on behalf
 2. Edit the script variables:
    ```powershell
    $SavePath      = "C:\Path\To\Save"
-   $Mailbox       = "SOC"                # Shared mailbox display name
-   $SenderNeedle  = "NT SOC MOT-IL"      # Sender / on behalf of filter
+   $Mailbox       = "The mailbox that you want to recive all CSV attachments"                # Shared mailbox display name
+   $SenderNeedle  = "Sender"      # Sender / on behalf of filter
   '''
 3. Open PowerShell and run:
           Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
