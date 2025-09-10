@@ -16,10 +16,10 @@ It was designed to handle a SOC workflow where daily reports are sent *on behalf
 ---
 
 ## 📂 File Structure
-- `Save-Attachments-BySender.ps1` → Main script
+- `Mail_Attachment.ps1` → Main script
 - `processed_entryids.txt` → Stores which emails were already processed
 - `download_log.txt` → Log file with full run history
-- `C:\Users\<username>\Desktop\Test` → Default output directory (can be changed in `$SavePath`)
+- `Save path` → Default output directory (can be changed in `$SavePath`)
 
 ---
 
